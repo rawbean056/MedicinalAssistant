@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_scndpage"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_name"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/name_text"
+            android:textColor="#FFFFFF"
+
+            android:inputType="text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/users_sex"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/custom_btn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex_male"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/custom_btn"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex_female"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/users_date_of_birth"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="2dp"
+            android:textColor="#FFFFFF"
+            android:inputType="number"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DD"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="4dp"/>
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="2dp"
+            android:textColor="#FFFFFF"
+            android:inputType="number"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MM"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="4dp"/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="2dp"
+            android:textColor="#FFFFFF"
+            android:inputType="number"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YY"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor:    "
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/doctor_text"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="2dp"
+            android:textColor="#FFFFFF"
+            android:inputType="text"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital:  "
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/hospital_text"
+            android:textColor="#FFFFFF"
+
+            android:inputType="text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="2dp"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine:"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/medicine_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="2dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:inputType="text"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forbidden:"
+            android:textColor="#fff"
+            android:fontFamily="@font/geosanslight"
+            android:textSize="18sp"
+            android:padding="9dp"/>
+
+        <EditText
+            android:id="@+id/forbidden_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_btn"
+            android:layout_marginLeft="2dp"
+            android:inputType="text"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/custom_btn2"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:fontFamily="@font/geosanslight"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/back_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn2"
+        android:text="Back"
+        android:textColor="#fff"
+        android:fontFamily="@font/geosanslight"
+        />
+
+
+
+
+</LinearLayout>

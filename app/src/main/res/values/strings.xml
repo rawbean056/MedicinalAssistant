@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Medicinal Assistant</string>
+    <string name="user_name">Name</string>
+    <string name="users_sex">Sex</string>
+    <string name="sex_male">Male</string>
+    <string name="sex_female">Female</string>
+    <string name="user_date_of_birth">Date of Birth</string>
+    <string name="users_date_of_birth">Date of Birth:</string>
+</resources>

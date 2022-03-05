@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_scndpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selected_button"
+            android:text="SUMMARY"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn2"
+            android:text="DETAILS"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/reminder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn2"
+            android:text="REMINDER"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/custom_btn2"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Name:"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/geosanslight"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Age:"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/geosanslight"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Doctor:"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/geosanslight"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Hospital"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/geosanslight"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Medicines"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/geosanslight"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Recommended Foods:"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/geosanslight"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Restricted Foods:"
+            android:paddingBottom="4dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/geosanslight"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

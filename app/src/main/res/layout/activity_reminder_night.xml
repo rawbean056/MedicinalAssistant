@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_scndpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn2"
+            android:text="SUMMARY"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn2"
+            android:text="DETAILS"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selected_button"
+            android:text="REMINDER"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_btn2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/morning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn2"
+            android:text="Morning"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/noon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn2"
+            android:text="NOON"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selected_button"
+            android:text="NIGHT"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:layout_margin="4dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/custom_btn2"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="NIGHT MEDICINES: "
+            android:textSize="28sp"
+            android:textColor="#fff"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:textAlignment="center"
+            android:text="Medicine 1, Medicine 2 "
+            android:textSize="28sp"
+            android:textColor="#fff"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/night_alarm_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/night_alarm_button"
+            android:layout_width="128dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:text="SET TIME"
+            android:background="@drawable/selected_button"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:fontFamily="@font/geosanslight"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="18dp"/>
+    </LinearLayout>
+
+</LinearLayout>
